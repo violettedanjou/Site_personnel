@@ -16,7 +16,7 @@
 	<meta name="author" content="Violette Danjou">
 	<meta name="description" content=""> <!-- ajouter un contenu -->
 
-	<link rel="stylesheet" type="text/css" href="style.css"> <!-- pour lier au css-->
+	<link rel="stylesheet" type="text/css" href="app/public/style.css"> <!-- pour lier au css-->
 
 	<!-- breakpoints pour version responsive-->
 
@@ -75,7 +75,7 @@
 						<div id="banner-description">
 							<h1>Violette Danjou</h1>
 							<p id="p-banner-description">Étudiante Développeuse web</p>	
-							<a id="button-CV" href="images/CV_violette_danjou.pdf">Télécharger mon CV <i class="fas fa-download"></i></a>		
+							<a id="button-CV" href="app/public/img/CV_violette_danjou.pdf">Télécharger mon CV <i class="fas fa-download"></i></a>		
 						</div>
 					</div>
 				</div>	
@@ -93,7 +93,7 @@
 				<div class="col-12 col-lg-4 img-infos-profile">
 
 					<div class="img-profile">
-						<img src="images/profil.jpeg" alt="photo profil de violette danjou">
+						<img src="app/public/img/profil.jpeg" alt="photo profil de violette danjou">
 					</div>
 
 					<div class="infos-profile">
@@ -169,13 +169,13 @@
 							<div class="wrap">
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="http://projet1.violette-danjou.com/">
-										<img class="img-portfolio" src="images/img-projet1.png" alt="photo du projet 1">
+										<img class="img-portfolio" src="app/public/img/img-projet1.png" alt="photo du projet 1">
 									</a>
 								</div>
 
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="">
-										<img class="img-portfolio" src="images/img-site-perso.png" alt="photo du site personnel">
+										<img class="img-portfolio" src="app/public/img/img-site-perso.png" alt="photo du site personnel">
 									</a>
 								</div>
 
@@ -187,7 +187,7 @@
 							<div class="wrap">
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="http://ireki.violette-danjou.com/">
-										<img class="img-portfolio" src="images/img-projet2.png" alt="photo du projet 2">
+										<img class="img-portfolio" src="app/public/img/img-projet2.png" alt="photo du projet 2">
 									</a>
 								</div>
 							</div>
@@ -198,7 +198,7 @@
 							<div class="wrap">
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="http://projet3.violette-danjou.com/">
-										<img class="img-portfolio" src="images/img-projet3.png" alt="photo du projet 3">
+										<img class="img-portfolio" src="app/public/img/img-projet3.png" alt="photo du projet 3">
 									</a>
 								</div>
 							</div>
@@ -209,13 +209,13 @@
 							<div class="wrap">
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="http://projet4.violette-danjou.com/">
-										<img class="img-portfolio" src="images/img-projet4.png" alt="photo du projet 4">
+										<img class="img-portfolio" src="app/public/img/img-projet4.png" alt="photo du projet 4">
 									</a>
 								</div>
 
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="http://projet5.violette-danjou.com/">
-										<img class="img-portfolio" src="images/img-projet5.png" alt="photo du projet 5">
+										<img class="img-portfolio" src="app/public/img/img-projet5.png" alt="photo du projet 5">
 									</a>
 								</div>
 							</div>	
@@ -357,12 +357,12 @@
 				<div class="row contact">
 					<div class="col-12 col-md-6">
 						<h6>Coordonnées</h6>
-						<form>
-							<label for="name">Prénom<strong class="star-form"> *</strong></label> <input type="text" name="name" required>
-							<label for="surname">Nom<strong class="star-form"> *</strong></label> <input type="text" name="surname"required><br/>
-							<label for="email">Email<strong class="star-form"> *</strong></label> <input type="email" name="email" placeholder="xxx@yy.fr" required><br/>
-							<label for="subject">Sujet</label> <input type="text" name="subject"><br/>
-							<label for="message">Message<strong class="star-form"> *</strong></label> <textarea name="message" id="message" placeholder="Ecrivez votre message ici ..." required></textarea><br/>
+						<form action="index.php?action=validContact" method="post">
+							<label for="name">Prénom<strong class="star-form"> *</strong></label><input type="text" name="name" required minlength="5">
+							<label for="surname">Nom<strong class="star-form"> *</strong></label><input type="text" name="surname"required minlength="5"><br/>
+							<label for="email">Email<strong class="star-form"> *</strong></label><input type="email" name="email" placeholder="xxx@yy.fr" required minlength="7"><br/>
+							<label for="subject">Sujet</label><input type="text" name="subject" minlength="10"><br/>
+							<label for="message">Message<strong class="star-form"> *</strong></label><textarea name="message" id="message" placeholder="Ecrivez votre message ici ..." required minlength="10"></textarea><br/>
 							<input type="submit" name="send" value="Envoyer" id="send">
 						</form>
 					</div>
@@ -381,56 +381,47 @@
 
 
 <!-- Footer -->	
-	<footer>
-		<div>
-			<a href="#home">
-				<i class="far fa-arrow-alt-circle-up"></i>
-			</a>
-		</div>
+<footer>
+	<div>
+		<a href="#home">
+			<i class="far fa-arrow-alt-circle-up"></i>
+		</a>
+	</div>
 
-		<div id="logos">
-			<a href="https://github.com/violettedanjou">
-				<i class="fab fa-github"></i>
-			</a>
-			<a href="https://www.linkedin.com/in/violette-danjou-56b461204/">
-				<i class="fab fa-linkedin"></i>
-			</a>
-			<a href="https://www.instagram.com/violettedanj/">
-				<i class="fab fa-instagram"></i>
-			</a>
+	<div id="logos">
+		<a href="https://github.com/violettedanjou">
+			<i class="fab fa-github"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/violette-danjou-56b461204/">
+			<i class="fab fa-linkedin"></i>
+		</a>
+		<a href="https://www.instagram.com/violettedanj/">
+			<i class="fab fa-instagram"></i>
+		</a>
 			
-		</div>
+	</div>
 
-		<div>
-			<p class="p-footer"> Copyright © Violette Danjou - 2021. Tous droits réservés</p>
-		</div>
+	<div>
+		<p class="p-footer"> Copyright © Violette Danjou - 2021. Tous droits réservés</p>
+	</div>
 
-		<div>
-			<a href="#adresse-vers-mon-site">
-				<p class="p-footer">Politiques de confidentialité Termes et conditions</p>
-			</a>
-		</div>
-
-		
-	</footer>
+	<div>
+		<a href="#adresse-vers-mon-site">
+			<p class="p-footer">Politiques de confidentialité Termes et conditions</p>
+		</a>
+	</div>
+</footer>
 
 
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
+<!-- Popper.js -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
+<!-- Bootstrap JS -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
