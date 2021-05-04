@@ -21,9 +21,9 @@ try {
 		// Formulaire de contact
 		if ($_GET['action'] == "validContact") {
 			if (isset($_POST['name']) AND strlen($_POST['name']) != 0) {
-
+				
 				if (isset($_POST['surname']) AND strlen($_POST['surname']) != 0) {
-
+					
 		            if ((isset($_POST['email']))) {
 		                $_POST['email'] = htmlspecialchars($_POST['email']);
 		                
@@ -31,9 +31,9 @@ try {
 
 		                	if (isset($_POST['subject']) AND strlen($_POST['subject']) != 0) {
 		                		
-		                		if (isset($_POST['message']) AND strlen($_POST['message']) != 0) {
-		                			$insertMember = new controller_back();
-									$insertMember->validContact();
+		                		if (isset($_POST['content']) AND strlen($_POST['content']) != 0) {
+		                			$validContact = new controller_back();
+									$validContact->validContact();
 		                		}
 		                		else {
 		                			throw new \Exception("Ecrivez un message. ", 1);

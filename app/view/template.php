@@ -362,7 +362,7 @@
 							<label for="surname">Nom<strong class="star-form"> *</strong></label><input type="text" name="surname"required minlength="5"><br/>
 							<label for="email">Email<strong class="star-form"> *</strong></label><input type="email" name="email" placeholder="xxx@yy.fr" required minlength="7"><br/>
 							<label for="subject">Sujet</label><input type="text" name="subject" minlength="10"><br/>
-							<label for="message">Message<strong class="star-form"> *</strong></label><textarea name="message" id="message" placeholder="Ecrivez votre message ici ..." required minlength="10"></textarea><br/>
+							<label for="content">Message<strong class="star-form"> *</strong></label><textarea name="content" id="message" placeholder="Ecrivez votre message ici ..." required minlength="10"></textarea><br/>
 							<input type="submit" name="send" value="Envoyer" id="send">
 						</form>
 					</div>
