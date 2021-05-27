@@ -4,29 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite6f17aad47af5fc8960c47000ab88c8b
+class ComposerStaticInit4e7a07957dcefcef41122d39cc925741
 {
-    public static $files = array (
-        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'a' => 
         array (
             'app\\' => 4,
-        ),
-        'P' => 
-        array (
-            'Pagerfanta\\Twig\\' => 16,
-            'Pagerfanta\\Solarium\\' => 20,
-            'Pagerfanta\\Elastica\\' => 20,
-            'Pagerfanta\\Doctrine\\PHPCRODM\\' => 29,
-            'Pagerfanta\\Doctrine\\ORM\\' => 24,
-            'Pagerfanta\\Doctrine\\MongoDBODM\\' => 31,
-            'Pagerfanta\\Doctrine\\DBAL\\' => 25,
-            'Pagerfanta\\Doctrine\\Collections\\' => 32,
-            'Pagerfanta\\Adapter\\' => 19,
-            'Pagerfanta\\' => 11,
         ),
     );
 
@@ -34,46 +17,6 @@ class ComposerStaticInite6f17aad47af5fc8960c47000ab88c8b
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
-        ),
-        'Pagerfanta\\Twig\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Twig',
-        ),
-        'Pagerfanta\\Solarium\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Solarium',
-        ),
-        'Pagerfanta\\Elastica\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Elastica',
-        ),
-        'Pagerfanta\\Doctrine\\PHPCRODM\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Doctrine/PHPCRODM',
-        ),
-        'Pagerfanta\\Doctrine\\ORM\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Doctrine/ORM',
-        ),
-        'Pagerfanta\\Doctrine\\MongoDBODM\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Doctrine/MongoDBODM',
-        ),
-        'Pagerfanta\\Doctrine\\DBAL\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Doctrine/DBAL',
-        ),
-        'Pagerfanta\\Doctrine\\Collections\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Adapter/Doctrine/Collections',
-        ),
-        'Pagerfanta\\Adapter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/src/Adapter',
-        ),
-        'Pagerfanta\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pagerfanta/pagerfanta/lib/Core',
         ),
     );
 
@@ -84,9 +27,9 @@ class ComposerStaticInite6f17aad47af5fc8960c47000ab88c8b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite6f17aad47af5fc8960c47000ab88c8b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite6f17aad47af5fc8960c47000ab88c8b::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInite6f17aad47af5fc8960c47000ab88c8b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4e7a07957dcefcef41122d39cc925741::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4e7a07957dcefcef41122d39cc925741::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit4e7a07957dcefcef41122d39cc925741::$classMap;
 
         }, null, ClassLoader::class);
     }

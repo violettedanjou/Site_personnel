@@ -18,13 +18,14 @@ class ContactManager extends Manager
     {
         $db = $this->dbConnect();
         $req = $db->prepare('INSERT INTO contact(name, surname, email, subject, content) VALUES(:name, :surname, :email, :subject, :content)');
-        $req->execute(array(
+        $message = $req->execute(array(
             'name' => $name,
             'surname' => $surname,
             'email' => $email,
         	'subject' => $subject,
         	'content' => $message));
+        die(var_dump($message));
 
-        return $req;
+        return $message;
     }
 }

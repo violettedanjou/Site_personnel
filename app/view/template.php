@@ -69,7 +69,9 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12 banner">
-					<div id="transparent-viel"></div>
+					<div id="transparent-viel">
+						<img id="img-banner" src="app/public/img/img-banner.jpg" alt="Bannière">
+					</div>
 
 					<div id="banner">
 						<div id="banner-description">
@@ -99,10 +101,9 @@
 					<div class="infos-profile">
 						<ul>
 							<li><strong>Nom : </strong>Violette Danjou</li>
-							<li><strong>Date de naissance : </strong>08/04/1999 (22 ans)</li>
+							<li><strong>Age : </strong>22 ans</li>
 							<li><strong>Localisation : </strong>Lille, France</li>
 							<li><strong>Email : </strong>violette.danjou@hotmail.fr</li>
-							<li><strong>Téléphone : </strong>06 xx xx xx xx</li>
 						</ul>
 					</div>
 
@@ -118,7 +119,7 @@
 				
 						<strong id="strong-goals">Mes objectifs</strong><br/>
 						Ma réussite professionnelle étant très importante pour mon <span class="span-profile">enrichissement personnel</span>, je suis <span class="span-profile">motivée</span> et recherche une entreprise qui saura m'accueillir et me faire <span class="span-profile">évoluer</span> avec elle et ses membres expérimentés pour <span class="span-profile">développer</span> davatange de compétences. <br/>
-						Je suis étudiante chez OpenClassrooms et j'effectue la formation de développeur web junior. Cette formation m'a appris à devenir véritablement autonome et le <span class="span-profile">goût d'apprendre toujours plus</span>.
+						Fraichement diplomée avec OpenClassrooms en tant que développeur web junior, j'ai appris grâce à cette formation à devenir véritablement autonome et le <span class="span-profile">goût d'apprendre toujours plus</span>.
 					</p>
 
 				</div>
@@ -128,8 +129,12 @@
 		<div class="container-fluid">	
 			<div class="row">			
 				<div class="col-12 img-background-section1">
+
 					<h4>QUALITÉS</h4>
 					<div id="div-p-qualities">
+						<div id="viel-qualities">
+							<img id="img-qualities" src="app/public/img/img-background-section1.jpg" alt="Ordinateur sur une table en bois">
+						</div>
 
 						<div class="col-12 col-sm-8 col-md-4 col-lg-3 p-qualities">
 							<p><i class="fas fa-check-square"></i> Consciencieuse <br/></p>
@@ -149,7 +154,7 @@
 						<div class="col-12 col-sm-8 col-md-4 col-lg-3 p-qualities">
 							<p><i class="fas fa-check-square"></i> Patiente <br/></p>
 						</div>
-
+						
 					</div>
 				</div>
 			</div>

@@ -10,12 +10,12 @@ class controller_back
 	{
 		$contactManager = new ContactManager();
 		$emailExist = $contactManager->verifyEmail($_POST['email']);
-    
+
 		$nbrResult = $emailExist->rowCount();
 		if ($nbrResult == 0) {
 			$contactManager = new ContactManager();
 	    	$newMessage = $memberManager->sendMessage($_POST['name'], $_POST['surname'], $_POST['email'], $_POST['subject'], $_POST['content']);
-	    	
+
 	    	header('Location: index.php');
 		}
 		else {
