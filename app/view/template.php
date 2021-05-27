@@ -294,23 +294,26 @@
 
 					<div class="col-12 career">
 						<h6>Développeur web junior - OpenClassrooms (2019 - 2021)</h6>
+						<span id="span-career">Projets s’adressant à des clients (https://github.com/violettedanjou) :</span>
+
 							<ol id="ol-career">
-								<li>Création de site en HMTL5 et CSS3 <em>(Octobre 2019 - Janvier 2020)</em></li>
-								<li>Utilisation de WordPress + SEO <em>(Février 2020 - Mars 2020)</em></li>
-								<li>Création d’une carte interactive <em>(Avril 2020 - Septembre 2020)</em></li>
-								<li>Création d’un blog <em>(Octobre 2020 - Janvier 2021)</em></li>
-								<li>Création d’un office de tourisme en Nouvelle Calédonie <em>(Février 2021 - Avril 2021)</em></li>
+								<li>Intégrer la maquette d'une agence web</li>
+								<li>Créer un site personnalisant avec un thème WordPress</li>
+								<li>Concevoir une carte interactive de location de vélos</li>
+								<li>Créer un blog pour un écrivain</li>
+								<li>Projet personnel : Site d'un office de tourisme présentant activités en fonction de la météo</li>
 							</ol>							
 					</div>
 
 					<div class="col-12 career">
-						<h6>Aide-magasinier polyvalent - Décathlon Logistique (2017 - 2020) (job étudiant)</h6>
+						<h6>Aide-magasinier polyvalent - Décathlon Logistique (2017 - 2020) (18 mois)</h6>
 							<ol id="ol-career">
 								<li>Gestion d’une équipe de 5 à 15 personnes</li>
 								<li>Gestion de stock</li>
-								<li>Utilisation de logiciels internes (AS400, )</li>
-								<li>Polyvalente dans l’ensemble des différents secteurs de l’entrepôt</li>
-								<li>Préparation de commande, chargement/déchargement de camions, emballage colis, réapprovisionnement de stock...</li>
+								<li>Utilisation de logiciels internes (AS400 & Twist)</li>
+								<li>Préparation de commande, emballage de colis, remise en stock, réapprovisionnement, réception de colis, envoie de colis...</li>
+								<li>Chargement/déchargement de camions</li>
+								<li>Permis interne équivalent au CACES</li>
 							</ol>							
 					</div>
 
@@ -324,28 +327,34 @@
 					<div class="col-12 career">
 						<h6>OpenClassrooms (2019 - 2021)</h6>
 						<p class="p-career">
-							Développeur web junior - Bac +2 - niveau 5
+							<span class="span-career">Développeur web junior - Bac +2 - niveau 5</span><br/>
+							Formation réalisée à distance<br/>
+							5 projets suivis par un mentor spécialisé en compétences techniques<br/>
+							Type de clients : agence web, particulier, service public, écrivain, office de tourisme<br/>
+							Langages et CMS : JavaScript, PHP, MySQL, HTML, CSS, WordPress<br/>
 						</p>
 					</div>
 
 					<div class="col-12 career">
-						<h6>IUT Valenciennes (2018 - 2019)</h6>
+						<h6>IUT Les Tertiales - Valenciennes (2018 - 2019)</h6>
 						<p class="p-career">
-							DUT Techniques de Commercialisation
+							<span class="span-career">DUT Techniques de Commercialisation</span><br/>
+							Marketing, Distribution, Communication, Management, Ventes, Achats, Langues, Informatique (Word, Excel)
 						</p>
 					</div>
 
 					<div class="col-12 career">
-						<h6>IUT Roubaix (2017 - 2017)</h6>
+						<h6>IUT C - Roubaix (2017)</h6>
 						<p class="p-career">
-							DUT Carrières Juridiques
+							<span class="span-career">DUT Carrières Juridiques</span><br/>
+							Droit civil, Droit du travail, Droit commercial, Droit pénal, Droit des affaires, Droit et Gestion de l'entreprise, Droit administratif, Droit social, Gestion comptable
 						</p>
 					</div>
 
 					<div class="col-12 career">
 						<h6>Lycée Jean Perrin (2016 - 2017)</h6>
 						<p class="p-career">
-							BAC Économique - Spécialité Sciences Politiques
+							<span class="span-career">BAC Économique - Spécialité Sciences Politiques</span>
 						</p>
 					</div>
 				</div>
@@ -362,22 +371,13 @@
 				<div class="row contact">
 					<div class="col-12 col-md-6">
 						<h6>Coordonnées</h6>
-						<form action="index.php?action=validContact" method="post">
-							<label for="name">Prénom<strong class="star-form"> *</strong></label><input type="text" name="name" required minlength="5">
-							<label for="surname">Nom<strong class="star-form"> *</strong></label><input type="text" name="surname"required minlength="5"><br/>
-							<label for="email">Email<strong class="star-form"> *</strong></label><input type="email" name="email" placeholder="xxx@yy.fr" required minlength="7"><br/>
-							<label for="subject">Sujet</label><input type="text" name="subject" minlength="10"><br/>
-							<label for="content">Message<strong class="star-form"> *</strong></label><textarea name="content" id="message" placeholder="Ecrivez votre message ici ..." required minlength="10"></textarea><br/>
-							<input type="submit" name="send" value="Envoyer" id="send">
-						</form>
-					</div>
-					<div class="col-12 col-md-6">
+						<p><strong>Email : </strong>violette.danjou@hotmail.fr</p><br/>
 						<h6>Ville</h6>
 						<p>Lille, France</p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80985.23059984011!2d2.977120874675211!3d50.631046507693576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sfr!2sfr!4v1610821376746!5m2!1sfr!2sfr" width="300" height="auto" frameborder="0" style="border:0;"></iframe><br/>
-
-						<h6>Téléphone</h6>
-						<p>06 XX XX XX XX</p>
+					</div>
+					<div class="col-12 col-md-6">
+						
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80985.23059984011!2d2.977120874675211!3d50.631046507693576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sfr!2sfr!4v1610821376746!5m2!1sfr!2sfr" width="500" height="auto" frameborder="0" style="border:0;"></iframe><br/>
 					</div>
 				</div>
 				
@@ -397,10 +397,10 @@
 		<a href="https://github.com/violettedanjou">
 			<i class="fab fa-github"></i>
 		</a>
-		<a href="https://www.linkedin.com/in/violette-danjou-56b461204/">
+		<a href="https://www.linkedin.com/in/violette-danjou">
 			<i class="fab fa-linkedin"></i>
 		</a>
-		<a href="https://www.instagram.com/violettedanj/">
+		<a href="https://www.instagram.com/a_table_yoyo/">
 			<i class="fab fa-instagram"></i>
 		</a>
 			
