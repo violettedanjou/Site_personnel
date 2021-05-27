@@ -18,7 +18,7 @@
 
 	<link rel="stylesheet" type="text/css" href="app/public/style.css"> <!-- pour lier au css-->
 
-	<!-- breakpoints pour version responsive-->
+	<link rel="stylesheet" type="text/css" media="all and (max-width: 768px)" href="app/public/responsive.css"> <!-- breakpoints pour responsive-->
 
 	<title>Portfolio de Violette Danjou</title>
 </head>
