@@ -9,10 +9,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- metatags -->
-
-	<!--version responsive-->
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width"> <!-- Meta tags -->
+	<meta property="og:site_name" content="Portfolio">
+	<meta property="og:image" content="https://cdn.pixabay.com/photo/2020/04/18/15/48/telework-5059653_1280.png">
 	<meta name="author" content="Violette Danjou">
 	<meta name="description" content=""> <!-- ajouter un contenu -->
 
