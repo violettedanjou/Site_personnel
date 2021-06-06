@@ -1,0 +1,31 @@
+/* Banniere */
+#banner
+{
+  height: 300px;
+}
+#img-banner, #transparent-viel
+{
+  height: 300px;
+}
+#banner-description
+{
+  top: 50px;
+}
+
+/* Profil */
+div#img-profile
+{
+  margin-left: 40px;
+}
+
+/* Bloc qualités */
+#img-qualities
+{
+  height: 500px;
+}
+
+/* Bloc expériences et formations */
+.col-12.career
+{
+  /*margin: 10px;*/
+}

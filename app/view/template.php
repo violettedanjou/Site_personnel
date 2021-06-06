@@ -96,11 +96,11 @@
 			<div class="row">
 				<div class="col-12 col-lg-4 img-infos-profile">
 
-					<div class="img-profile">
+					<div id="img-profile">
 						<img src="app/public/img/profil.jpeg" alt="photo profil de violette danjou">
 					</div>
 
-					<div class="infos-profile">
+					<div>
 						<ul>
 							<li><strong>Nom : </strong>Violette Danjou</li>
 							<li><strong>Age : </strong>22 ans</li>
