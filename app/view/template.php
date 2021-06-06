@@ -29,32 +29,35 @@
 	<div class="row">
 		<div class="col-12 header">
 			<header>
-				<nav class="navbar navbar-expand">
-				   <a class="navbar-brand" href="#home"><i class="fas fa-home"></i></a>
+				<nav role="navigation">
+				    <div id="menuToggle">
+				   		<input type="checkbox"/>
 
-				   <div>
-					   	<ul class="navbar-nav">
-					      <li class="nav-item active">
-					         <a class="nav-link" href="#home">ACCUEIL</a>
-					      </li>
-					      <li class="nav-item">
-					         <a class="nav-link" href="#about">PROFIL</a>
-					      </li>
-					      <li class="nav-item">
-					         <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-					      </li>
-					      <li class="nav-item">
-					         <a class="nav-link" href="#skills">COMPÉTENCES</a>
-					      </li>
-					      <li class="nav-item">
-					         <a class="nav-link" href="#career">PARCOURS</a>
-					      </li>
-					      <li class="nav-item">
-					         <a class="nav-link" href="#contact">CONTACT</a>
-					      </li>
+					   	<span></span>
+					    <span></span>
+					    <span></span>
+
+					   	<ul id="menu">	
+					      	<li>
+					         	<a href="#home">ACCUEIL</a>
+					      	</li>
+					      	<li>
+					        	<a href="#about">PROFIL</a>
+					      	</li>
+					      	<li>
+					         	<a href="#portfolio">PORTFOLIO</a>
+					      	</li>
+					      	<li>
+					         	<a href="#skills">COMPÉTENCES</a>
+					      	</li>
+					      	<li>
+					         	<a href="#career">PARCOURS</a>
+					      	</li>
+					      	<li>
+					         	<a href="#contact">CONTACT</a>
+					      	</li>
 					   </ul>
 				   </div>
-
 				</nav>
 			</header>
 		</div>
