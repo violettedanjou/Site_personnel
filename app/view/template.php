@@ -182,7 +182,7 @@
 
 								<div class="col-12 col-md-6 col-lg-4">
 									<a href="">
-										<img class="img-portfolio" src="app/public/img/img-site-perso.png" alt="photo du site personnel">
+										<img class="img-portfolio" src="app/public/img/img-portfolio.png" alt="photo du site personnel">
 									</a>
 								</div>
 
